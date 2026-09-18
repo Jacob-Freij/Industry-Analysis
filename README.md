@@ -36,6 +36,7 @@ How have job vacancy rates diverged across Canadian industry sectors since 2015,
 ---
 
 ## Methodology
+
 1. Data was imported from a raw CSV containing monthly labour market indicators (Statistics Canada, Table 14-10-0372-01).
 2. NAICS sector labels were cleaned and split into sector name and code.
 3. Date fields were parsed from StatsCan's `YY-Mon` format into standardized datetimes.
@@ -71,6 +72,8 @@ How have job vacancy rates diverged across Canadian industry sectors since 2015,
 - `job_vacancies.db` — SQLite database created from the processed dataset
 - `.vscode/` — Local editor configuration
 - `.gitignore` — Files excluded from version control
+
+---
 
 ## File Tree
 ```text
