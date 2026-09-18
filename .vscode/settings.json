@@ -1,0 +1,14 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Industry_Analysis/Industry_Analysis.sqlproj"
+    ],
+    "sqltools.connections": [
+        {
+            "name": "Job Vacancies",
+            "driver": "SQLite",
+            "database": "/Users/jacobfreijcamacho/Desktop/Employment Industry Analysis/job_vacancies.db",
+            "connectionTimeout": 15
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
